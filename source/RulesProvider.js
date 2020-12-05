@@ -20,6 +20,7 @@ const removeLoader = () => {
 }
 
 export default ({ children, rulesURL, dataBranch }) => {
+	return <div>RULESPROVIDER IS NOS OUTPUTING ANYTHING</div>
 	const rulesLoaded = useSelector((state) => state.rules != null)
 
 	const dispatch = useDispatch()
